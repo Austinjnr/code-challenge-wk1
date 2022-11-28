@@ -1,7 +1,7 @@
 //Student Grade Generator
 const Grade = (score) => {
     let letterGrade;
-    while (score <=100 && score > 0 )  
+    while (score <=100 && score => 0 )  
     if (score > 79 ) {
       letterGrade = "A";
     } else if (score >= 60 ) {
